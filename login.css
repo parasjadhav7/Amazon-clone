@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    color: white;
+}
+
+body{
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+}
+
+.logo{
+    font-family: "Birthstone", cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: transparent;
+    border-radius: 6px;
+    color: black;
+}
+
+.btnlogon{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #0095f6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+   opacity: 0.5;
+}
+
+.btnlogon:hover{
+    opacity: 1;
+}
+
+
+
+
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: white;
+}
+
+.divider span{
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.signup{
+    margin-top: 15px;
+}
